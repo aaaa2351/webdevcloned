@@ -267,7 +267,7 @@ nav .logo img {
   padding: 8px 12px;
   border-radius: 8px;
   font-size: 0.875rem;
-  transition: background 0.2s ease;
+  transition: all 0.2s ease;
 }
 .dropdown .opt1.checked {
   display: flex;
