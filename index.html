@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>web.dev</title>
+  </head>
+  <body>
+    <div class="app">
+      <nav class="main_nav">
+        <div class="logo">
+          <img class="webdev" src="/images/web.dev_dark.svg" alt="" />
+        </div>
+        <ul class="links">
+          <li class="link has_caret">
+            <a href="#resources">Resources</a>
+          </li>
+          <li class="link">
+            <a href="#discover">Discover</a>
+          </li>
+          <li class="link">
+            <a href="#baseline">Baseline</a>
+          </li>
+          <li class="link">
+            <a href="#baseline">How to use Baseline</a>
+          </li>
+          <li class="link">
+            <a href="#blog">Blog</a>
+          </li>
+          <li class="link">
+            <a href="#case_studies">Case Studies</a>
+          </li>
+        </ul>
+        <div class="rhs">
+          <div class="search">
+            <form action="" class="searchForm">
+              <button class="searchLogo" type="submit">
+                <img src="/search.svg" alt="" style="height: 30px;">
+              </button>
+              <input type="text" placeholder="Search" />
+              <div class="shortcut">/</div>
+            </form>
+          </div>
+          <div class="theme">
+            <!-- <div class="light_theme theme_btn hidden">
+              <i class="fa-solid fa-sun"></i>
+            </div> -->
+            <div class="dark_theme theme_btn">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+
+            <div class="dropdown hidden">
+              <div class="opt1 dark">Dark</div>
+              <div class="opt1 light">Light</div>
+              <div class="opt1 checked system">System Default</div>
+            </div>
+          </div>
+          <div class="lang">
+            <div class="language">
+              <div class="icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <p class="currentLang">English</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="dropdown hidden">
+              <div class="opt1 checked">English</div>
+              <div class="opt1">Español</div>
+              <div class="opt1">Français</div>
+              <div class="opt1">Deutsch</div>
+              <div class="opt1">中文</div>
+              <div class="opt1">日本語</div>
+              <div class="opt1">Português</div>
+              <div class="opt1">Italiano</div>
+              <div class="opt1">हिन्दी</div>
+            </div>
+          </div>
+          <div class="auth">
+            <button>Sign in</button>
+          </div>
+        </div>
+      </nav>
+      <div class="ble_hd">
+        Guidance to build modern web experiences that work on any browser.
+      </div>
+      <div class="gry_hd">
+        <span>Modern Web Guidance is now stable!</span> Upgrade your coding
+        agents with expert-vetted web development best practices.
+        <a href="#"> Read the announcement. </a>
+      </div>
+      <div class="main_page">
+        <div class="desc">
+          <div class="txts">
+            <h1>Building a better web, together</h1>
+            <p>
+              We want to help you build beautiful, accessible, fast, and secure
+              websites that work cross-browser, and for all of your users. This
+              site is our home for content to help you on that journey, written
+              by members of the Chrome team, and external experts who specialize
+              in web development topics such as accessibility, performance,
+              design, and more.
+            </p>
+          </div>
+          <div class="image">
+            <img src="/images/imgi_37_home-blue_2880.png" alt="" />
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card1 card">
+            <img src="images/imgi_43_ai-feature_960.png" alt="" />
+            <div class="txtt">
+              <div class="title">
+                <a href="#">AI and the web </a>
+              </div>
+              <div class="description">
+                Discover resources created to help you understand and build
+                performant, web-first experiences with AI.
+              </div>
+            </div>
+            <div class="learn_more">Learn More</div>
+          </div>
+          <div class="card1 card">
+            <img src="images/imgi_53_inp-icon-only_1440.jpg" alt="" />
+            <div class="txtt">
+              <div class="title">
+                <a href="#">Optimize INP </a>
+              </div>
+              <div class="description">
+                Interaction to Next Paint (INP) is now a Core Web Vital metric.
+                Start measuring and optimizing your site's INP
+              </div>
+            </div>
+            <div class="learn_more">Learn More</div>
+          </div>
+          <div class="card1 card">
+            <img src="images/imgi_64_hero-identity_2880.png" alt="" />
+            <div class="txtt">
+              <div class="title">
+                <a href="#"> Payments & Identity</a>
+              </div>
+              <div class="description">
+                Read up on the latest features and best practices when it comes
+                to identity and payment processing.
+              </div>
+            </div>
+            <div class="learn_more">Learn More</div>
+          </div>
+        </div>
+        <div class="nCard">
+          <div class="txtz">
+            <h1>Explore the web platform</h1>
+            <p>
+              The web platform is a constantly evolving ecosystem of browser
+              features and APIs for developers to make websites that are easy
+              and delightful to use. These pages are pathways for you to dive
+              into each part of the web platform on web.dev—at your pace
+            </p>
+          </div>
+          <div class="sG">Start exploring</div>
+        </div>
+        <div class="cards1">
+          <div class="card2 card">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="#1a9ff5"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"
+              />
+            </svg>
+            <div class="txtt">
+              <div class="title">
+                <a href="#">HTML</a>
+              </div>
+              <div class="description">
+                HTML is the document layer of the web, providing structure and
+                semantics for pages.
+              </div>
+            </div>
+            <div class="learn_more">Learn more</div>
+          </div>
+          <div class="card2 card">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="#1a9ff5"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 4H5V5h14v2zm-9 12H5v-9h5v9zm9 0h-7v-9h7v9z"
+              />
+            </svg>
+            <div class="txtt">
+              <div class="title">
+                <a href="#">CSS</a>
+              </div>
+              <div class="description">
+                CSS is the presentation layer of the web, and allows you to make
+                your web pages look exactly like you imagine.
+              </div>
+            </div>
+            <div class="learn_more">Learn more</div>
+          </div>
+          <div class="card2 card">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="#1a9ff5"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61z"
+              />
+            </svg>
+            <div class="txtt">
+              <div class="title">
+                <a href="#">JavaScript</a>
+              </div>
+              <div class="description">
+                JavaScript adds rich interactivity to web pages, so you can
+                build websites that help users to perform tasks and accomplish
+                goals.
+              </div>
+            </div>
+            <div class="learn_more">Learn more</div>
+          </div>
+        </div>
+        <div class="nCard">
+          <div class="txtz">
+            <h1>Learn the web platform</h1>
+            <p>
+              New to the web platform? We've got you covered! Dive into each
+              layer, with courses curated specifically for beginners to HTML,
+              CSS, and JavaScript
+            </p>
+          </div>
+          <div class="sG">Start learning</div>
+        </div>
+        <div class="cards2">
+          <div class="card3 card">
+            <img src="images/imgi_71_card_1440.png" alt="Learn HTML" />
+            <div class="txtt">
+              <div class="title">
+                <a href="#">Learn HTML</a>
+              </div>
+              <div class="description">
+                A solid overview of HTML for developers, from novice to expert
+                level HTML.
+              </div>
+            </div>
+            <div class="learn_more">Start course</div>
+          </div>
+          <div class="card3 card">
+            <img src="images/imgi_78_card_856.png" alt="Learn CSS" />
+            <div class="txtt">
+              <div class="title">
+                <a href="#">Learn CSS</a>
+              </div>
+              <div class="description">
+                A guide to CSS with modules covering everything from
+                accessibility to z-index.
+              </div>
+            </div>
+            <div class="learn_more">Start course</div>
+          </div>
+          <div class="card3 card">
+            <img src="images/imgi_90_card_1920.png" alt="Learn JavaScript" />
+            <div class="txtt">
+              <div class="title">
+                <a href="#">Learn JavaScript</a>
+              </div>
+              <div class="description">
+                An in-depth course on the basics of
+                <br />
+                JavaScript.
+              </div>
+            </div>
+            <div class="learn_more">Start course</div>
+          </div>
+        </div>
+        <div class="nCard2">
+          <div class="np1">
+            <div class="txtz2">
+              <h1>Keep up on web development news</h1>
+              <p>
+                Read our blog to learn the latest news in web development,
+                including new web platform features, updates to Baseline, AI,
+                Core Web Vitals, and more.
+              </p>
+            </div>
+            <div class="sG2">Read the blog</div>
+          </div>
+          <div class="image">
+            <img src="images/imgi_97_blog-header_960.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bbt">
+        <div class="txtsb1">
+          <div class="flex1">
+            <h3>Baseline</h3>
+            <p>
+              Get up to speed with the latest updates and news on
+              <a href="#">Baseline</a>.
+            </p>
+            <div class="moreBase">More on Baseline</div>
+          </div>
+
+          <div class="flex2">
+            <div class="itemh">
+              <a href="#">August 2026 Baseline monthly digest</a>
+              <p>
+                Read about various happenings with Baseline during August 2026.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">Submit your proposals for Interop 2027</a>
+              <p>
+                It's time to let us know which web platform features should be
+                part of Interop 2027.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex3">
+            <div class="itemh">
+              <a href="#"
+                >Find features to support for Interop 2027 with your coding
+                agent</a
+              >
+              <p>
+                Learn how you can use your coding agent to find Interop 2027
+                proposals to upvote, or find features to propose.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">July 2026 Baseline monthly digest</a>
+              <p>
+                Read about various happenings with Baseline during July 2026.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="txtsb1 txtsb2">
+          <div class="flex1">
+            <h3>CSS and UI design</h3>
+            <p>
+              Learn the latest tips and techniques to use in your work, right
+              now.
+            </p>
+            <div class="moreBase">Explore CSS</div>
+          </div>
+
+          <div class="flex2">
+            <div class="itemh">
+              <a href="#">Adapting typography to user preference using CSS</a>
+              <p>
+                Adapt a font to your users' preferences, so they're maximally
+                comfortable reading your content.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">What are source maps?</a>
+              <p>Improve web debugging experience with source maps.</p>
+            </div>
+          </div>
+
+          <div class="flex3">
+            <div class="itemh">
+              <a href="#"
+                >New CSS color spaces and functions in all major engines</a
+              >
+              <p>
+                All major engines now support the new CSS color spaces and
+                functions. Find out how they can bring vibrancy to your designs.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">CSS subgrid</a>
+              <p>
+                Subgrid is interoperable across all three major engines. Find
+                out how to use it.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="txtsb1 txtsb3">
+          <div class="flex1">
+            <h3>Core Web Vitals</h3>
+            <p>
+              Build faster websites and apps by understanding Core Web Vitals
+              and other metrics.
+            </p>
+            <div class="moreBase">Explore Core Web Vitals</div>
+          </div>
+
+          <div class="flex2">
+            <div class="itemh">
+              <a href="#">The most effective ways to improve Core Web Vitals</a>
+              <p>
+                A collection of best practices for optimizing websites' Core Web
+                Vitals performance based on the state of the web.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">Common misconceptions about how to optimize LCP</a>
+              <p>
+                Explore common misconceptions about optimizing Largest
+                Contentful Paint by looking beyond image optimization and
+                considering factors like Time to First Byte and resource load
+                delay.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex3">
+            <div class="itemh">
+              <a href="#">How to optimize INP</a>
+              <p>
+                Learn how to optimize for the Interaction to Next Paint metric.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#"
+                >Best practices for measuring Web Vitals in the field</a
+              >
+              <p>
+                Guidance for collecting and reporting Web Vitals quickly and
+                reliably.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="txtsb1 txtsb4">
+          <div class="flex1">
+            <h3>Progressive Web Apps</h3>
+            <p>Create capable web experiences.</p>
+            <div class="moreBase">More on PWA</div>
+          </div>
+
+          <div class="flex2">
+            <div class="itemh">
+              <a href="#">Learn PWA</a>
+              <p>
+                A course that breaks down every aspect of modern progressive web
+                app development.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">New patterns for amazing apps</a>
+              <p>
+                Dive into a fantastic collection of new patterns for amazing
+                apps, including clipboard patterns, file patterns, and advanced
+                app patterns.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex3">
+            <div class="itemh">
+              <a href="#">TransformStream is now supported cross browser.</a>
+              <p>
+                Now that transform streams are supported in Safari, Firefox, and
+                Chrome they are finally ready for prime time.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">Project Fugu API showcase</a>
+              <p>On the Chrome Developers site, explore capabilities APIs.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="txtsb1 txtsb5">
+          <div class="flex1">
+            <h3>Accessible for all</h3>
+            <p>
+              Learn how to make your sites more accessible for people with
+              disabilities, whether permanent, temporary, or situational.
+            </p>
+            <div class="moreBase">More on accessibility</div>
+          </div>
+
+          <div class="flex2">
+            <div class="itemh">
+              <a href="#">Learn Accessibility</a>
+              <p>
+                Our new course is a great entry point and reference for
+                accessibility topics.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">Building the main navigation for a website</a>
+              <p>
+                This tutorial describes how to build an accessible main
+                navigation of a website. You learn about semantic HTML,
+                accessibility, and how using ARIA attributes can sometimes do
+                more harm than good.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex3">
+            <div class="itemh">
+              <a href="#">Testing web design color contrast</a>
+              <p>
+                An overview of three tools and techniques for testing and
+                verifying accessible color contrast of your design.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">Community highlight: Melanie Sumner</a>
+              <p>
+                Read our interview with Melanie, a software engineer who
+                specializes in digital accessibility.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="txtsb6 txtsb1">
+          <div class="flex1">
+            <h3>Payments and identity</h3>
+            <p>
+              Find the latest techniques and best practices for payments and
+              helping users safely log into your sites and apps.
+            </p>
+            <div class="moreBase">More on identity</div>
+          </div>
+
+          <div class="flex2">
+            <div class="itemh">
+              <a href="#">Create a passkey for passwordless logins</a>
+              <p>Passkeys make user accounts safer, simpler, easier to use.</p>
+            </div>
+            <div class="itemh">
+              <a href="#">Web payments overview</a>
+              <p>Learn more about Web Payments and how they work.</p>
+            </div>
+          </div>
+
+          <div class="flex3">
+            <div class="itemh">
+              <a href="#">Sign in with a passkey</a>
+              <p>
+                Create a sign in experience that uses passkeys while still
+                accommodating existing password users.
+              </p>
+            </div>
+            <div class="itemh">
+              <a href="#">Payment and address form best practices</a>
+              <p>
+                Maximize conversions by helping your users complete address and
+                payment forms as quickly and easily as possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btmR">
+        <div class="btmForm">
+          <h2>Developer Newsletter</h2>
+
+          <p class="newa">
+            Get the latest news, techniques and updates straight to your inbox.
+          </p>
+          <div class="names">
+            <div class="first">
+              <p>First Name</p>
+              <input type="text" placeholder="First Name" />
+            </div>
+            <div class="last">
+              <p>Last Name</p>
+              <input type="text" placeholder="Last Name" />
+            </div>
+          </div>
+
+          <div class="email">
+            <p>Email</p>
+            <input type="text" placeholder="Your Email..." />
+          </div>
+
+          <div class="country">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+              <option value="" disabled selected></option>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AD">Andorra</option>
+              <option value="AO">Angola</option>
+              <option value="AG">Antigua and Barbuda</option>
+              <option value="AR">Argentina</option>
+              <option value="AM">Armenia</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="AZ">Azerbaijan</option>
+              <option value="BS">Bahamas</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BB">Barbados</option>
+              <option value="BY">Belarus</option>
+              <option value="BE">Belgium</option>
+              <option value="BZ">Belize</option>
+              <option value="BJ">Benin</option>
+              <option value="BT">Bhutan</option>
+              <option value="BO">Bolivia</option>
+              <option value="BA">Bosnia and Herzegovina</option>
+              <option value="BW">Botswana</option>
+              <option value="BR">Brazil</option>
+              <option value="BN">Brunei</option>
+              <option value="BG">Bulgaria</option>
+              <option value="BF">Burkina Faso</option>
+              <option value="BI">Burundi</option>
+              <option value="CV">Cabo Verde</option>
+              <option value="KH">Cambodia</option>
+              <option value="CM">Cameroon</option>
+              <option value="CA">Canada</option>
+              <option value="CF">Central African Republic</option>
+              <option value="TD">Chad</option>
+              <option value="CL">Chile</option>
+              <option value="CN">China</option>
+              <option value="CO">Colombia</option>
+              <option value="KM">Comoros</option>
+              <option value="CG">Congo (Congo-Brazzaville)</option>
+              <option value="CD">Congo (Democratic Republic)</option>
+              <option value="CR">Costa Rica</option>
+              <option value="CI">Côte d'Ivoire</option>
+              <option value="HR">Croatia</option>
+              <option value="CU">Cuba</option>
+              <option value="CY">Cyprus</option>
+              <option value="CZ">Czechia</option>
+              <option value="DK">Denmark</option>
+              <option value="DJ">Djibouti</option>
+              <option value="DM">Dominica</option>
+              <option value="DO">Dominican Republic</option>
+              <option value="EC">Ecuador</option>
+              <option value="EG">Egypt</option>
+              <option value="SV">El Salvador</option>
+              <option value="GQ">Equatorial Guinea</option>
+              <option value="ER">Eritrea</option>
+              <option value="EE">Estonia</option>
+              <option value="SZ">Eswatini</option>
+              <option value="ET">Ethiopia</option>
+              <option value="FJ">Fiji</option>
+              <option value="FI">Finland</option>
+              <option value="FR">France</option>
+              <option value="GA">Gabon</option>
+              <option value="GM">Gambia</option>
+              <option value="GE">Georgia</option>
+              <option value="DE">Germany</option>
+              <option value="GH">Ghana</option>
+              <option value="GR">Greece</option>
+              <option value="GD">Grenada</option>
+              <option value="GT">Guatemala</option>
+              <option value="GN">Guinea</option>
+              <option value="GW">Guinea-Bissau</option>
+              <option value="GY">Guyana</option>
+              <option value="HT">Haiti</option>
+              <option value="HN">Honduras</option>
+              <option value="HU">Hungary</option>
+              <option value="IS">Iceland</option>
+              <option value="IN">India</option>
+              <option value="ID">Indonesia</option>
+              <option value="IR">Iran</option>
+              <option value="IQ">Iraq</option>
+              <option value="IE">Ireland</option>
+              <option value="IL">Israel</option>
+              <option value="IT">Italy</option>
+              <option value="JM">Jamaica</option>
+              <option value="JP">Japan</option>
+              <option value="JO">Jordan</option>
+              <option value="KZ">Kazakhstan</option>
+              <option value="KE">Kenya</option>
+              <option value="KI">Kiribati</option>
+              <option value="KP">Korea (North)</option>
+              <option value="KR">Korea (South)</option>
+              <option value="KW">Kuwait</option>
+              <option value="KG">Kyrgyzstan</option>
+              <option value="LA">Laos</option>
+              <option value="LV">Latvia</option>
+              <option value="LB">Lebanon</option>
+              <option value="LS">Lesotho</option>
+              <option value="LR">Liberia</option>
+              <option value="LY">Libya</option>
+              <option value="LI">Liechtenstein</option>
+              <option value="LT">Lithuania</option>
+              <option value="LU">Luxembourg</option>
+              <option value="MG">Madagascar</option>
+              <option value="MW">Malawi</option>
+              <option value="MY">Malaysia</option>
+              <option value="MV">Maldives</option>
+              <option value="ML">Mali</option>
+              <option value="MT">Malta</option>
+              <option value="MH">Marshall Islands</option>
+              <option value="MR">Mauritania</option>
+              <option value="MU">Mauritius</option>
+              <option value="MX">Mexico</option>
+              <option value="FM">Micronesia</option>
+              <option value="MD">Moldova</option>
+              <option value="MC">Monaco</option>
+              <option value="MN">Mongolia</option>
+              <option value="ME">Montenegro</option>
+              <option value="MA">Morocco</option>
+              <option value="MZ">Mozambique</option>
+              <option value="MM">Myanmar</option>
+              <option value="NA">Namibia</option>
+              <option value="NR">Nauru</option>
+              <option value="NP">Nepal</option>
+              <option value="NL">Netherlands</option>
+              <option value="NZ">New Zealand</option>
+              <option value="NI">Nicaragua</option>
+              <option value="NE">Niger</option>
+              <option value="NG">Nigeria</option>
+              <option value="MK">North Macedonia</option>
+              <option value="NO">Norway</option>
+              <option value="OM">Oman</option>
+              <option value="PK">Pakistan</option>
+              <option value="PW">Palau</option>
+              <option value="PS">Palestine</option>
+              <option value="PA">Panama</option>
+              <option value="PG">Papua New Guinea</option>
+              <option value="PY">Paraguay</option>
+              <option value="PE">Peru</option>
+              <option value="PH">Philippines</option>
+              <option value="PL">Poland</option>
+              <option value="PT">Portugal</option>
+              <option value="QA">Qatar</option>
+              <option value="RO">Romania</option>
+              <option value="RU">Russia</option>
+              <option value="RW">Rwanda</option>
+              <option value="KN">Saint Kitts and Nevis</option>
+              <option value="LC">Saint Lucia</option>
+              <option value="VC">Saint Vincent and the Grenadines</option>
+              <option value="WS">Samoa</option>
+              <option value="SM">San Marino</option>
+              <option value="ST">Sao Tome and Principe</option>
+              <option value="SA">Saudi Arabia</option>
+              <option value="SN">Senegal</option>
+              <option value="RS">Serbia</option>
+              <option value="SC">Seychelles</option>
+              <option value="SL">Sierra Leone</option>
+              <option value="SG">Singapore</option>
+              <option value="SK">Slovakia</option>
+              <option value="SI">Slovenia</option>
+              <option value="SB">Solomon Islands</option>
+              <option value="SO">Somalia</option>
+              <option value="ZA">South Africa</option>
+              <option value="SS">South Sudan</option>
+              <option value="ES">Spain</option>
+              <option value="LK">Sri Lanka</option>
+              <option value="SD">Sudan</option>
+              <option value="SR">Suriname</option>
+              <option value="SE">Sweden</option>
+              <option value="CH">Switzerland</option>
+              <option value="SY">Syria</option>
+              <option value="TW">Taiwan</option>
+              <option value="TJ">Tajikistan</option>
+              <option value="TZ">Tanzania</option>
+              <option value="TH">Thailand</option>
+              <option value="TL">Timor-Leste</option>
+              <option value="TG">Togo</option>
+              <option value="TO">Tonga</option>
+              <option value="TT">Trinidad and Tobago</option>
+              <option value="TN">Tunisia</option>
+              <option value="TR">Turkey</option>
+              <option value="TM">Turkmenistan</option>
+              <option value="TV">Tuvalu</option>
+              <option value="UG">Uganda</option>
+              <option value="UA">Ukraine</option>
+              <option value="AE">United Arab Emirates</option>
+              <option value="GB">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="UY">Uruguay</option>
+              <option value="UZ">Uzbekistan</option>
+              <option value="VU">Vanuatu</option>
+              <option value="VA">Vatican City</option>
+              <option value="VE">Venezuela</option>
+              <option value="VN">Vietnam</option>
+              <option value="YE">Yemen</option>
+              <option value="ZM">Zambia</option>
+              <option value="ZW">Zimbabwe</option>
+            </select>
+          </div>
+          <p class="nz">
+            Don't worry, no spam here! Your information will only be used for
+            web.dev and Chrome related updates and our emails are typically no
+            more than 1-2 times a month. You can unsubscribe anytime.
+          </p>
+          <div class="terms">
+            <div class="t1">
+              <input type="checkbox" name="" id="" />
+              <p>Add me to the web.dev mailing list.</p>
+            </div>
+            <div class="tt2">
+              <input type="checkbox" name="" id="" />
+              <p>
+                I accept Google's
+                <a href="#"> Terms and Conditions</a> and acknowledge that my
+                information will be used in accordance with Google's
+                <a href="#">Privacy Policy.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="btm2">
+          <div class="youRobot">
+            <div class="lft">
+              <input type="checkbox" name="" id="" />
+              I'm not a robot.
+            </div>
+
+            <div class="rht">
+              <img src="images/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="sub">Subscribe</div>
+        </div>
+      </div>
+      <footer class="ft1">
+        <div class="ft2">
+          <div class="ft3">
+            <div class="ft3a">
+              <img class="webdev" src="/images/web.dev_dark.svg" alt="" />
+            </div>
+            <p class="ft3c">
+              We want to help you build beautiful, accessible, fast, and secure
+              websites that work cross-browser, and for all of your users. This
+              site is our home for content to help you on that journey, written
+              by members of the Chrome team, and external experts.
+            </p>
+          </div>
+
+          <div class="ft4">
+            <h3>Contribute</h3>
+            <ul>
+              <li><a href="#">File a bug</a></li>
+              <li><a href="#">See open issues</a></li>
+            </ul>
+          </div>
+
+          <div class="ft5">
+            <h3>Related Content</h3>
+            <ul>
+              <li><a href="#">Chrome for Developers</a></li>
+              <li><a href="#">Chromium updates</a></li>
+              <li><a href="#">Case studies</a></li>
+              <li><a href="#">Podcasts & shows</a></li>
+            </ul>
+          </div>
+
+          <div class="ft6">
+            <h3>Follow</h3>
+            <ul>
+              <li><a href="#">@ChromiumDev on X</a></li>
+              <li><a href="#">YouTube</a></li>
+              <li><a href="#">Chrome for Developers on LinkedIn</a></li>
+              <li><a href="#">RSS</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ft7">
+          <div class="ft8"><a href="#">Terms</a> | <a href="#">Privacy</a></div>
+          <div class="ft9">
+            <div class="lang">
+              <div class="language">
+                <div class="icon">
+                  <i class="fa-solid fa-globe"></i>
+                </div>
+                <p class="currentLang">English</p>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="dropdown hidden">
+                <div class="opt1 checked">English</div>
+                <div class="opt1">Español</div>
+                <div class="opt1">Français</div>
+                <div class="opt1">Deutsch</div>
+                <div class="opt1">中文</div>
+                <div class="opt1">日本語</div>
+                <div class="opt1">Português</div>
+                <div class="opt1">Italiano</div>
+                <div class="opt1">हिन्दी</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
